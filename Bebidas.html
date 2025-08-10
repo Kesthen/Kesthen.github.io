@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - MUSCLEBAR GYM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="bebidas.js" defer></script>
+</head>
+<body>
+    <!-- Mismo header que suplementos.html -->
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">311-221-3482</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h1 class="logo"><a href="/">MUSCLEBAR GYM</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Naturista.html">Naturista</a></li>
+                    <li><a href="suplementos.html">Suplementos</a></li>
+                    <li><a href="Bebidas.html">Bebidas</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="container top-categories">
+            <h1 class="heading-1">Bebidas Saludables</h1>
+            <div class="filter-section">
+                <div class="filter-options">
+                    <span class="filter-label">Filtrar por:</span>
+                    <select class="filter-select" id="category-filter">
+                        <option value="all">Todos</option>
+                        <option value="smoothie">Batidos</option>
+                        <option value="juice">Jugos Naturales</option>
+                        <option value="energy">Bebidas Calientes</option>
+                        <option value="detox">Jugos FIT</option>
+                        <option value="coffee">Jugos Verdes</option>
+                    </select>
+                    <select class="filter-select" id="price-filter">
+                        <option value="default">Ordenar por</option>
+                        <option value="price-asc">Menor precio</option>
+                        <option value="price-desc">Mayor precio</option>
+                        <option value="rating">Mejor valorados</option>
+                    </select>
+                    <button class="btn-clear-filters">Limpiar filtros</button>
+                </div>
+                <div class="search-products">
+                    <input type="text" id="product-search" placeholder="Buscar bebidas...">
+                    <button class="btn-search-products">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container-products" id="products-container">
+                <!-- Productos se cargarán dinámicamente desde JavaScript -->
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-nav" id="prev-page">&laquo;</a>
+                <div class="page-numbers" id="page-numbers">
+                    <!-- Números de página se generarán dinámicamente -->
+                </div>
+                <a href="#" class="page-nav" id="next-page">&raquo;</a>
+            </div>
+        </section>
+
+        <section class="container benefits">
+            <h2 class="heading-2">Beneficios de nuestras bebidas</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fa-solid fa-blender"></i>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Elaboradas con frutas y vegetales frescos de alta calidad.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Energía Natural</h3>
+                    <p>Fuente de energía sin químicos ni conservantes artificiales.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-heart"></i>
+                    <h3>Salud Cardiovascular</h3>
+                    <p>Mejoran la circulación y reducen el colesterol.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-bottle-water"></i>
+                    <h3>Hidratación</h3>
+                    <p>Mantienen tu cuerpo hidratado y lleno de nutrientes.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: Cl. 3 # 8A-25, Cajicá, Cundinamarca, Colombia
+                        </li>
+                        <li>Teléfono: 311-221-3482</li>
+                        <li>EmaiL: nonagymacevedo@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <a href="https://www.instagram.com/gymbarmuscle?igsh=b3lzd3hjczU4N29vdG9y"  target="_blank">INSTRAGRAM</a>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín informativo</p>
+
+                    <div class="content">
+                        <p>
+                            Suscríbete a nuestros boletines ahora y mantente al
+                            día con nuevas colecciones y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Kevin Andrey Angel
+                </p>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
