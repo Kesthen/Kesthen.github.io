@@ -19,17 +19,22 @@ html {
 
 .btn-wsp {
 	background-color: #2e6329;
-    border: 1px solid #fff;
-    position: fixed;
-    z-index: 999;
-    border-radius: 50%;
-    bottom: 25px;
-    right: 25px;
-    padding:20px;
-	width: 30px; 
-    height: 30px;
-    transition: ease 0.3s;
-    animation: efecto 1.2s infinite;
+            border: 1px solid #fff;
+            position: fixed;
+            z-index: 999;
+            border-radius: 50%;
+            bottom: 25px;
+            right: 25px;
+            /* Eliminamos el padding y usamos dimensiones fijas */
+            width: 70px;
+            height: 70px;
+            /* Centramos el contenido */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: ease 0.3s;
+            animation: efecto 1.2s infinite;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
 }
 .btn-wsp:hover {
