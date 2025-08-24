@@ -357,7 +357,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/SHARKY.webp",
+        image: "img/SHARKY.png",
         description: "Café con leche y proteína añadida"
     },
     {
