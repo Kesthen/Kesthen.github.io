@@ -25,10 +25,8 @@ html {
             border-radius: 50%;
             bottom: 25px;
             right: 25px;
-            /* Eliminamos el padding y usamos dimensiones fijas */
-            width: 70px;
-            height: 70px;
-            /* Centramos el contenido */
+            width: 80px;
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
