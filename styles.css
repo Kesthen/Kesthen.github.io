@@ -23,7 +23,7 @@ html {
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 20px;
+    bottom: 25px;
     right: 25px;
     padding:20px;
 	width: 30px; 
@@ -38,7 +38,7 @@ html {
 }
 
 .boton{
-    width: 18px;
+    width: 25px;
     transition: ease 1s;
 }
 
