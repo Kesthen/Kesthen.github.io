@@ -25,9 +25,9 @@ html {
     border-radius: 50%;
     bottom: 20px;
     right: 25px;
-    padding: 18px;
-	width: 45px; 
-    height: 45px;
+    padding: 15px;
+	width: 50px; 
+    height: 50px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
 
