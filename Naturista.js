@@ -232,12 +232,12 @@ const products = [
     },
     {
         id: 23,
-        name: "ASHWANDHA",
+        name: "ASHWAGANDHA",
         category: "organic",
         price: 50000,
         oldPrice: null,
         rating: 5,
-        image: "img/miel.jpg",
+        image: "img/ASHWAGANDHA.webp",
         description: "Endulzante natural con propiedades medicinales"
     },
     {
@@ -247,7 +247,7 @@ const products = [
         price: 18000,
         oldPrice: 20000,
         rating: 5,
-        image: "img/miel.jpg",
+        image: "img/LION`S MANE.webp",
         description: "Endulzante natural con propiedades medicinales"
     },
     {
@@ -257,7 +257,7 @@ const products = [
         price: 11000,
         oldPrice: 13000,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/LIQUID ABSORBABLE CALCIUM.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -267,7 +267,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/BIOTINA.png",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -277,7 +277,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/GINKGO BILOBA.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -287,7 +287,7 @@ const products = [
         price: 50000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/NAD.png",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -297,7 +297,7 @@ const products = [
         price: 60000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/SPIRULINA.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -307,7 +307,7 @@ const products = [
         price: 60000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/SHARK CARTILAGE.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -317,7 +317,7 @@ const products = [
         price: 130000,
         oldPrice: null,
         rating: 5,
-        image: "img/miel.jpg",
+        image: "img/WELLFLEX.png",
         description: "Endulzante natural con propiedades medicinales"
     },
     {
@@ -327,7 +327,7 @@ const products = [
         price: 30000,
         oldPrice: null,
         rating: 5,
-        image: "img/miel.jpg",
+        image: "img/BIOGREEN.png",
         description: "Endulzante natural con propiedades medicinales"
     },
     {
@@ -337,7 +337,7 @@ const products = [
         price: 30000,
         oldPrice: null,
         rating: 5,
-        image: "img/miel.jpg",
+        image: "img/CLOROFILA.png",
         description: "Endulzante natural con propiedades medicinales"
     },
     {
@@ -347,7 +347,7 @@ const products = [
         price: 30000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/LINAZA MOLIDA.png",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -357,7 +357,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/SHARKY.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -367,7 +367,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/FITSHAKE.png",
         description: "Café con leche y proteína añadida"
     },
     {
