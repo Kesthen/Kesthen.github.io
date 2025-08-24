@@ -27,8 +27,9 @@ html {
     right: 25px;
     padding:20px;
 	width: 30px; 
+    height: 30px;
     transition: ease 0.3s;
-    animation: efecto 1.2s infinite;
+
 
 }
 .btn-wsp:hover {
