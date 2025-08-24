@@ -29,7 +29,7 @@ html {
 	width: 30px; 
     height: 30px;
     transition: ease 0.3s;
-
+    animation: efecto 1.2s infinite;
 
 }
 .btn-wsp:hover {
@@ -39,7 +39,8 @@ html {
 
 .boton{
     right: 25px;
-	width: 80px; 
+	width: 30px; 
+    height: 30px;
     transition: ease 1s;
 }
 
