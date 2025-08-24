@@ -38,17 +38,12 @@ html {
 }
 
 .boton{
-	background-color: #2e6329;
-    border: 1px solid #fff;
-    position: fixed;
-    border-radius: 50%;
-    bottom: 25px;
     right: 25px;
     padding:20px;
 	width: 30px; 
     height: 30px;
     transition: ease 0.3s;
-    animation: efecto 1.2s infinite;
+    animation: efecto 1s infinite;
 }
 
 @keyframes efecto{
