@@ -17,6 +17,22 @@ html {
 	box-sizing: border-box;
 }
 
+.btn-wsp {
+	position: fixed;
+	bottom: 55rem;
+	right: 55rem;
+	background-color: #25d366;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	transition: all 0.3s ease;
+}
+
 /* ********************************** */
 /*             UTILIDADES             */
 /* ********************************** */
