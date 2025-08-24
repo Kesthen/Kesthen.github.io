@@ -243,7 +243,7 @@ const products = [
     {
         id: 24,
         name: "LION`S MANE",
-        category: "",
+        category: "organic",
         price: 18000,
         oldPrice: 20000,
         rating: 5,
@@ -253,7 +253,7 @@ const products = [
     {
         id: 25,
         name: "LIQUID ABSORBABLE CALCIUM",
-        category: "coffee",
+        category: "organic",
         price: 11000,
         oldPrice: 13000,
         rating: 5,
@@ -263,7 +263,7 @@ const products = [
     {
         id: 26,
         name: "BIOTINA",
-        category: "coffee",
+        category: "organic",
         price: 45000,
         oldPrice: null,
         rating: 5,
@@ -273,7 +273,7 @@ const products = [
     {
         id: 27,
         name: "GINKGO BILOBA",
-        category: "coffee",
+        category: "organic",
         price: 45000,
         oldPrice: null,
         rating: 5,
@@ -283,7 +283,7 @@ const products = [
     {
         id: 28,
         name: "NAD",
-        category: "coffee",
+        category: "organic",
         price: 50000,
         oldPrice: null,
         rating: 5,
@@ -293,7 +293,7 @@ const products = [
     {
         id: 29,
         name: "SPIRULINA",
-        category: "coffee",
+        category: "organic",
         price: 60000,
         oldPrice: null,
         rating: 5,
@@ -303,7 +303,7 @@ const products = [
     {
         id: 30,
         name: "SHARK CARTILAGE",
-        category: "coffee",
+        category: "organic",
         price: 60000,
         oldPrice: null,
         rating: 5,
@@ -343,7 +343,7 @@ const products = [
     {
         id: 34,
         name: "LINAZA MOLIDA",
-        category: "coffee",
+        category: "organic",
         price: 30000,
         oldPrice: null,
         rating: 5,
@@ -353,7 +353,7 @@ const products = [
     {
         id: 35,
         name: "SHARKY",
-        category: "coffee",
+        category: "organic",
         price: 45000,
         oldPrice: null,
         rating: 5,
@@ -363,7 +363,7 @@ const products = [
     {
         id: 36,
         name: "FITSHAKE",
-        category: "coffee",
+        category: "organic",
         price: 45000,
         oldPrice: null,
         rating: 5,
@@ -373,7 +373,7 @@ const products = [
     {
         id: 37,
         name: "FORXIN",
-        category: "coffee",
+        category: "organic",
         price: 25000,
         oldPrice: null,
         rating: 5,
@@ -383,7 +383,7 @@ const products = [
     {
         id: 38,
         name: "VINAGRE DE SIDA DE AJO",
-        category: "coffee",
+        category: "organic",
         price: 40000,
         oldPrice: null,
         rating: 5,
@@ -394,7 +394,7 @@ const products = [
     {
         id: 39,
         name: "PROTEIN PANCAKE",
-        category: "coffee",
+        category: "organic",
         price: 55000,
         oldPrice: null,
         rating: 5,
@@ -404,7 +404,7 @@ const products = [
     {
         id: 40,
         name: "CREMA DE ARROZ ",
-        category: "coffee",
+        category: "organic",
         price: 25000,
         oldPrice: null,
         rating: 5,
@@ -414,7 +414,7 @@ const products = [
     {
         id: 41,
         name: "CREMA DE ARROZ",
-        category: "coffee",
+        category: "organic",
         price: 25000,
         oldPrice: null,
         rating: 5,
