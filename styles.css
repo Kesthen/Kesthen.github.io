@@ -23,10 +23,10 @@ html {
             position: fixed;
             z-index: 999;
             border-radius: 50%;
-            bottom: 70px;
+            bottom: 25px;
             right: 25px;
-            width: 80px;
-            height: 80px;
+            width: 90px;
+            height: 90px;
             display: flex;
             align-items: center;
             justify-content: center;
