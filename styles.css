@@ -19,18 +19,24 @@ html {
 
 .btn-wsp {
 	position: fixed;
-	bottom: 55rem;
-	right: 55rem;
-	background-color: #25d366;
-	width: 5rem;
-	height: 5rem;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	z-index: 1000;
-	transition: all 0.3s ease;
+	width: 44px;
+	height:55px;
+	line-height: 55px;
+	bottom: 33px;
+	right: 30px;
+	background: #0df053;
+	color:  #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 100;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+.btn-wsp:hover {
+	text-decoration: none;
+	background: #fff;
+	color: #0df053;
 }
 
 /* ********************************** */
