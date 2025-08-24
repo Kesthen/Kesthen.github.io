@@ -367,7 +367,7 @@ const products = [
         price: 45000,
         oldPrice: null,
         rating: 5,
-        image: "img/FITSHAKE.png",
+        image: "img/FITSHAKE.webp",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -377,7 +377,7 @@ const products = [
         price: 25000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/FORXIN.wepb",
         description: "Café con leche y proteína añadida"
     },
     {
@@ -387,8 +387,39 @@ const products = [
         price: 40000,
         oldPrice: null,
         rating: 5,
-        image: "img/latte.jpg",
+        image: "img/VINAGRE DE SIDA DE AJO.png",
         description: "Café con leche y proteína añadida"
+    },
+
+    {
+        id: 39,
+        name: "PROTEIN PANCAKE",
+        category: "coffee",
+        price: 55000,
+        oldPrice: null,
+        rating: 5,
+        image: "img/PROTEIN PANCAKE.png",
+        description: "Café con leche y proteína añadida"
+    },
+    {
+        id: 40,
+        name: "CREMA DE ARROZ ",
+        category: "coffee",
+        price: 25000,
+        oldPrice: null,
+        rating: 5,
+        image: "img/CREMA DE ARROZA.png",
+        description: "Sabor a chocolate"
+    },
+    {
+        id: 41,
+        name: "CREMA DE ARROZ",
+        category: "coffee",
+        price: 25000,
+        oldPrice: null,
+        rating: 5,
+        image: "img/CREMA DE ARROZB.png",
+        description: "Sabor a brownie"
     },
 
 
